@@ -13,7 +13,7 @@ mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
-mongoose.connect("mongodb+srv://2tle:ieelte1214@prophycluster.ijvoa.mongodb.net/prophyCluster?retryWrites=true&w=majority");
+mongoose.connect("");
 var db = mongoose.connection;
 db.once('open', function(){
   console.log('DB connected');
